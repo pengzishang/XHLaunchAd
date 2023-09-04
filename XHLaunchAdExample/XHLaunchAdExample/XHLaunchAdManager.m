@@ -8,7 +8,7 @@
 //  开屏广告初始化
 
 #import "XHLaunchAdManager.h"
-#import "XHLaunchAd.h"
+#import <XHLaunchAd/XHLaunchAd.h>
 #import "Network.h"
 #import "LaunchAdModel.h"
 #import "UIViewController+Nav.h"

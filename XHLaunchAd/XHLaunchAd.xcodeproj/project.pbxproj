@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8CE824B12AA593CF00050F17 /* Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8CE824B22AA593CF00050F17 /* Build configuration list for PBXAggregateTarget "Universal" */;
+			buildPhases = (
+				8CE824B52AA593D300050F17 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Universal;
+			productName = Universal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8CE824802AA5938500050F17 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8247C2AA5938500050F17 /* FLAnimatedImage.m */; };
+		8CE824812AA5938500050F17 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE8247D2AA5938500050F17 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824822AA5938500050F17 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE8247E2AA5938500050F17 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824832AA5938500050F17 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8247F2AA5938500050F17 /* FLAnimatedImageView.m */; };
+		8CE8249A2AA5939300050F17 /* XHLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE824842AA5939300050F17 /* XHLaunchImageView.m */; };
+		8CE8249B2AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824852AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE8249C2AA5939300050F17 /* XHLaunchAdButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824862AA5939300050F17 /* XHLaunchAdButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE8249D2AA5939300050F17 /* XHLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE824872AA5939300050F17 /* XHLaunchAdDownloader.m */; };
+		8CE8249E2AA5939300050F17 /* XHLaunchAdImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824882AA5939300050F17 /* XHLaunchAdImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE8249F2AA5939300050F17 /* XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824892AA5939300050F17 /* XHLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824A02AA5939300050F17 /* XHLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8248A2AA5939300050F17 /* XHLaunchAdConfiguration.m */; };
+		8CE824A12AA5939300050F17 /* XHLaunchAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE8248B2AA5939300050F17 /* XHLaunchAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824A22AA5939300050F17 /* XHLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8248C2AA5939300050F17 /* XHLaunchAdConst.m */; };
+		8CE824A32AA5939300050F17 /* XHLaunchAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE8248D2AA5939300050F17 /* XHLaunchAdConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824A42AA5939300050F17 /* XHLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8248E2AA5939300050F17 /* XHLaunchAdImageManager.m */; };
+		8CE824A52AA5939300050F17 /* XHLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8248F2AA5939300050F17 /* XHLaunchAdController.m */; };
+		8CE824A62AA5939300050F17 /* XHLaunchAdDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824902AA5939300050F17 /* XHLaunchAdDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824A72AA5939300050F17 /* XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE824912AA5939300050F17 /* XHLaunchAdCache.m */; };
+		8CE824A82AA5939300050F17 /* XHLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824922AA5939300050F17 /* XHLaunchAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824A92AA5939300050F17 /* XHLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE824932AA5939300050F17 /* XHLaunchAdButton.m */; };
+		8CE824AA2AA5939300050F17 /* XHLaunchAdConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824942AA5939300050F17 /* XHLaunchAdConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824AB2AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE824952AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.m */; };
+		8CE824AC2AA5939300050F17 /* XHLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE824962AA5939300050F17 /* XHLaunchAdView.m */; };
+		8CE824AD2AA5939300050F17 /* XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE824972AA5939300050F17 /* XHLaunchAd.m */; };
+		8CE824AE2AA5939300050F17 /* XHLaunchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824982AA5939300050F17 /* XHLaunchImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE824AF2AA5939300050F17 /* XHLaunchAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE824992AA5939300050F17 /* XHLaunchAdController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CE8243B2AA5929C00050F17 /* XHLaunchAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XHLaunchAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE8247C2AA5938500050F17 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		8CE8247D2AA5938500050F17 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		8CE8247E2AA5938500050F17 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		8CE8247F2AA5938500050F17 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		8CE824842AA5939300050F17 /* XHLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchImageView.m; sourceTree = "<group>"; };
+		8CE824852AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XHLaunchAdImageView+XHLaunchAdCache.h"; sourceTree = "<group>"; };
+		8CE824862AA5939300050F17 /* XHLaunchAdButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdButton.h; sourceTree = "<group>"; };
+		8CE824872AA5939300050F17 /* XHLaunchAdDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdDownloader.m; sourceTree = "<group>"; };
+		8CE824882AA5939300050F17 /* XHLaunchAdImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdImageManager.h; sourceTree = "<group>"; };
+		8CE824892AA5939300050F17 /* XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdCache.h; sourceTree = "<group>"; };
+		8CE8248A2AA5939300050F17 /* XHLaunchAdConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConfiguration.m; sourceTree = "<group>"; };
+		8CE8248B2AA5939300050F17 /* XHLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdView.h; sourceTree = "<group>"; };
+		8CE8248C2AA5939300050F17 /* XHLaunchAdConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConst.m; sourceTree = "<group>"; };
+		8CE8248D2AA5939300050F17 /* XHLaunchAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		8CE8248E2AA5939300050F17 /* XHLaunchAdImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdImageManager.m; sourceTree = "<group>"; };
+		8CE8248F2AA5939300050F17 /* XHLaunchAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdController.m; sourceTree = "<group>"; };
+		8CE824902AA5939300050F17 /* XHLaunchAdDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdDownloader.h; sourceTree = "<group>"; };
+		8CE824912AA5939300050F17 /* XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdCache.m; sourceTree = "<group>"; };
+		8CE824922AA5939300050F17 /* XHLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAd.h; sourceTree = "<group>"; };
+		8CE824932AA5939300050F17 /* XHLaunchAdButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdButton.m; sourceTree = "<group>"; };
+		8CE824942AA5939300050F17 /* XHLaunchAdConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConst.h; sourceTree = "<group>"; };
+		8CE824952AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XHLaunchAdImageView+XHLaunchAdCache.m"; sourceTree = "<group>"; };
+		8CE824962AA5939300050F17 /* XHLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdView.m; sourceTree = "<group>"; };
+		8CE824972AA5939300050F17 /* XHLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAd.m; sourceTree = "<group>"; };
+		8CE824982AA5939300050F17 /* XHLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchImageView.h; sourceTree = "<group>"; };
+		8CE824992AA5939300050F17 /* XHLaunchAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE824382AA5929C00050F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE824312AA5929C00050F17 = {
+			isa = PBXGroup;
+			children = (
+				8CE824452AA592D700050F17 /* Lib */,
+				8CE8244B2AA592D700050F17 /* XHLaunchAd */,
+				8CE8243C2AA5929C00050F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE8243C2AA5929C00050F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8243B2AA5929C00050F17 /* XHLaunchAd.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE824452AA592D700050F17 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8CE824462AA592D700050F17 /* FLAnimatedImage */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8CE824462AA592D700050F17 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8247D2AA5938500050F17 /* FLAnimatedImage.h */,
+				8CE8247C2AA5938500050F17 /* FLAnimatedImage.m */,
+				8CE8247E2AA5938500050F17 /* FLAnimatedImageView.h */,
+				8CE8247F2AA5938500050F17 /* FLAnimatedImageView.m */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		8CE8244B2AA592D700050F17 /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				8CE824922AA5939300050F17 /* XHLaunchAd.h */,
+				8CE824972AA5939300050F17 /* XHLaunchAd.m */,
+				8CE824862AA5939300050F17 /* XHLaunchAdButton.h */,
+				8CE824932AA5939300050F17 /* XHLaunchAdButton.m */,
+				8CE824892AA5939300050F17 /* XHLaunchAdCache.h */,
+				8CE824912AA5939300050F17 /* XHLaunchAdCache.m */,
+				8CE8248D2AA5939300050F17 /* XHLaunchAdConfiguration.h */,
+				8CE8248A2AA5939300050F17 /* XHLaunchAdConfiguration.m */,
+				8CE824942AA5939300050F17 /* XHLaunchAdConst.h */,
+				8CE8248C2AA5939300050F17 /* XHLaunchAdConst.m */,
+				8CE824992AA5939300050F17 /* XHLaunchAdController.h */,
+				8CE8248F2AA5939300050F17 /* XHLaunchAdController.m */,
+				8CE824902AA5939300050F17 /* XHLaunchAdDownloader.h */,
+				8CE824872AA5939300050F17 /* XHLaunchAdDownloader.m */,
+				8CE824882AA5939300050F17 /* XHLaunchAdImageManager.h */,
+				8CE8248E2AA5939300050F17 /* XHLaunchAdImageManager.m */,
+				8CE824852AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.h */,
+				8CE824952AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.m */,
+				8CE8248B2AA5939300050F17 /* XHLaunchAdView.h */,
+				8CE824962AA5939300050F17 /* XHLaunchAdView.m */,
+				8CE824982AA5939300050F17 /* XHLaunchImageView.h */,
+				8CE824842AA5939300050F17 /* XHLaunchImageView.m */,
+			);
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CE824362AA5929C00050F17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE824A12AA5939300050F17 /* XHLaunchAdView.h in Headers */,
+				8CE8249C2AA5939300050F17 /* XHLaunchAdButton.h in Headers */,
+				8CE824A82AA5939300050F17 /* XHLaunchAd.h in Headers */,
+				8CE824822AA5938500050F17 /* FLAnimatedImageView.h in Headers */,
+				8CE824812AA5938500050F17 /* FLAnimatedImage.h in Headers */,
+				8CE8249E2AA5939300050F17 /* XHLaunchAdImageManager.h in Headers */,
+				8CE824AF2AA5939300050F17 /* XHLaunchAdController.h in Headers */,
+				8CE824AE2AA5939300050F17 /* XHLaunchImageView.h in Headers */,
+				8CE8249B2AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.h in Headers */,
+				8CE824A62AA5939300050F17 /* XHLaunchAdDownloader.h in Headers */,
+				8CE8249F2AA5939300050F17 /* XHLaunchAdCache.h in Headers */,
+				8CE824AA2AA5939300050F17 /* XHLaunchAdConst.h in Headers */,
+				8CE824A32AA5939300050F17 /* XHLaunchAdConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CE8243A2AA5929C00050F17 /* XHLaunchAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE824422AA5929C00050F17 /* Build configuration list for PBXNativeTarget "XHLaunchAd" */;
+			buildPhases = (
+				8CE824362AA5929C00050F17 /* Headers */,
+				8CE824372AA5929C00050F17 /* Sources */,
+				8CE824382AA5929C00050F17 /* Frameworks */,
+				8CE824392AA5929C00050F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHLaunchAd;
+			productName = XHLaunchAd;
+			productReference = 8CE8243B2AA5929C00050F17 /* XHLaunchAd.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE824322AA5929C00050F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8CE8243A2AA5929C00050F17 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					8CE824B12AA593CF00050F17 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8CE824352AA5929C00050F17 /* Build configuration list for PBXProject "XHLaunchAd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE824312AA5929C00050F17;
+			productRefGroup = 8CE8243C2AA5929C00050F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE8243A2AA5929C00050F17 /* XHLaunchAd */,
+				8CE824B12AA593CF00050F17 /* Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE824392AA5929C00050F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CE824B52AA593D300050F17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORK_NAME=\"XHLaunchAd\"\nOUTPUT_DIR=\"${SRCROOT}/build\"\n\nrm -rf \"/${OUTPUT_DIR}\"\n\nxcodebuild archive \\\n-scheme \"${FRAMEWORK_NAME}\" \\\n -destination \"generic/platform=iOS Simulator\" \\\n -archivePath \"/${OUTPUT_DIR}/${FRAMEWORK_NAME}-Simulator\" \\\n SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nxcodebuild archive \\\n-scheme \"${FRAMEWORK_NAME}\" \\\n -destination \"generic/platform=iOS\" \\\n -archivePath \"/${OUTPUT_DIR}/${FRAMEWORK_NAME}-iOS\" \\\n SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nxcodebuild -create-xcframework\\\n -framework \"/${OUTPUT_DIR}/${FRAMEWORK_NAME}-iOS.xcarchive/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework\"\\\n -framework \"/${OUTPUT_DIR}/${FRAMEWORK_NAME}-Simulator.xcarchive/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework\"\\\n -output \"/${OUTPUT_DIR}/${FRAMEWORK_NAME}.xcframework\"\n \nrm -rf \"/${OUTPUT_DIR}/${FRAMEWORK_NAME}-iOS.xcarchive\"\nrm -rf \"/${OUTPUT_DIR}/${FRAMEWORK_NAME}-Simulator.xcarchive\"\n\nopen \"${OUTPUT_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE824372AA5929C00050F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE824A02AA5939300050F17 /* XHLaunchAdConfiguration.m in Sources */,
+				8CE8249D2AA5939300050F17 /* XHLaunchAdDownloader.m in Sources */,
+				8CE824A72AA5939300050F17 /* XHLaunchAdCache.m in Sources */,
+				8CE824AD2AA5939300050F17 /* XHLaunchAd.m in Sources */,
+				8CE8249A2AA5939300050F17 /* XHLaunchImageView.m in Sources */,
+				8CE824802AA5938500050F17 /* FLAnimatedImage.m in Sources */,
+				8CE824832AA5938500050F17 /* FLAnimatedImageView.m in Sources */,
+				8CE824A52AA5939300050F17 /* XHLaunchAdController.m in Sources */,
+				8CE824A92AA5939300050F17 /* XHLaunchAdButton.m in Sources */,
+				8CE824A22AA5939300050F17 /* XHLaunchAdConst.m in Sources */,
+				8CE824A42AA5939300050F17 /* XHLaunchAdImageManager.m in Sources */,
+				8CE824AC2AA5939300050F17 /* XHLaunchAdView.m in Sources */,
+				8CE824AB2AA5939300050F17 /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CE824402AA5929C00050F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CE824412AA5929C00050F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CE824432AA5929C00050F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPRY2U6BJ9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.babygo.XHLaunchAd;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8CE824442AA5929C00050F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPRY2U6BJ9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.babygo.XHLaunchAd;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8CE824B32AA593CF00050F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPRY2U6BJ9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE824B42AA593CF00050F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPRY2U6BJ9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE824352AA5929C00050F17 /* Build configuration list for PBXProject "XHLaunchAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE824402AA5929C00050F17 /* Debug */,
+				8CE824412AA5929C00050F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE824422AA5929C00050F17 /* Build configuration list for PBXNativeTarget "XHLaunchAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE824432AA5929C00050F17 /* Debug */,
+				8CE824442AA5929C00050F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE824B22AA593CF00050F17 /* Build configuration list for PBXAggregateTarget "Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE824B32AA593CF00050F17 /* Debug */,
+				8CE824B42AA593CF00050F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE824322AA5929C00050F17 /* Project object */;
+}

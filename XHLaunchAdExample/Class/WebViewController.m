@@ -9,7 +9,7 @@
 
 #import "WebViewController.h"
 #import <WebKit/WebKit.h>
-#import "XHLaunchAd.h"
+#import <XHLaunchAd/XHLaunchAd.h>
 
 @interface WebViewController ()
 @property(nonatomic,strong)WKWebView *webView;
@@ -49,7 +49,7 @@
     
     CGFloat navbarHeight = [UIApplication sharedApplication].statusBarFrame.size.height + 44;
     self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, navbarHeight, self.view.bounds.size.width, self.view.bounds.size.height-navbarHeight)];
-    self.webView.scrollView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    self.webView.scrollView.backgroundColor = [UIColor systemGroupedBackgroundColor];
     [self.view addSubview:self.webView];
     
     [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
